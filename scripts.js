@@ -14,3 +14,7 @@ function trimSvgWhitespace() {
     svg.setAttribute("viewBox", viewBox);
   }
 }
+
+function handleHover(ev){
+  console.log(ev)
+}
