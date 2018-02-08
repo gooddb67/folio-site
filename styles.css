@@ -68,6 +68,7 @@ html {
 }
 
 .skills {
+  position:relative;
   font-family: 'Open Sans';
   font-size: 1.5rem;
   text-align: center;
@@ -87,6 +88,7 @@ html {
   display: flex;
   background-color: #e6e6ff;
   justify-content: space-around;
+  position: relative;
 }
 
 .medium{
@@ -207,6 +209,16 @@ html {
 
  .name:hover .overlay{
   bottom: 0;
+}
+
+.overlay-skills{
+  right: 200%;
+  left: -100%;
+}
+
+.skills:hover .overlay{
+  right: 0;
+  left: 0;
 }
 
 @media (min-width: 768px){
