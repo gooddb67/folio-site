@@ -15,6 +15,15 @@ function trimSvgWhitespace() {
   }
 }
 
-function handleHover(ev){
-  console.log(ev)
-}
+
+document.getElementById('onboard-btn').addEventListener('click', function(){
+  document.querySelector('.onboard').classList.toggle('expand')
+});
+
+document.getElementById('urlink-btn').addEventListener('click', function(){
+  document.querySelector('.urlink').classList.toggle('expand')
+});
+
+document.getElementById('stagefast-btn').addEventListener('click', function(){
+  document.querySelector('.stagefast').classList.toggle('expand')
+});
